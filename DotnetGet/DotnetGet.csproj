@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dotnet-get</ToolCommandName>
+    <PackageOutputPath>./nupkg</PackageOutputPath>
+
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Install tools from Git repositories without hosting them on NuGet. Inspired by Golang's package manager.</Description>
+    <Nullable>enable</Nullable>
+    <Version>0.1.0</Version>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <Authors>Evan Buss</Authors>
+    <Company />
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/evan-buss/dotnet-get</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/evan-buss/dotnet-get</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CliWrap" Version="3.3.0" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.20574.7" />
+  </ItemGroup>
+</Project>
