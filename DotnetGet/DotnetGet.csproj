@@ -14,8 +14,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Install tools from Git repositories without hosting them on NuGet. Inspired by Golang's package manager.</Description>
     <Nullable>enable</Nullable>
-    <Version>0.1.0</Version>
-    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <Version>0.2.0</Version>
     <Authors>Evan Buss</Authors>
     <Company />
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
